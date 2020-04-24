@@ -1,0 +1,104 @@
+table{
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+}
+th{
+  color: rgb(112, 196, 105);
+  font-weight: normal;
+  padding: 20px 30px;
+  text-align: center;
+}
+.information{
+  color: rgb(111, 111, 111);
+  padding: 20px 30px;
+}
+
+.successful{
+  color: rgb(112, 196, 105);
+  margin-left: 400px;
+}
+
+.unsuccessful{
+  color: #f54029;
+  margin-left: 400px;
+}
+
+button{
+  display: inline-block;
+	background-color: rgb(112, 196, 105);
+  color: white;
+  font-weight: bold;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 10px;
+}
+.userTable{
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgb(112, 196, 105);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search {
+  display: flex;
+  width: 90%;
+  margin-left: 400px;
+  border: 3px solid white;
+}
+
+.searchBar{
+  width: 40%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchBar:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: auto;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchArea{
+  text-align: center;
+}
+
+#add{
+    float: right;
+    display: inline-block;
+  	background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: bold;
+  	width: 120px;
+  	height: 30px;
+  	border: none;
+  	border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.action{
+  display: inline-block;
+}

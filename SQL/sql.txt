@@ -1,0 +1,12 @@
+//Create database
+CREATE DATABASE userdata,
+
+// Create user data table
+CREATE TABLE users(
+    id int(11) PRIMARY KEY AUTO_INCREMENT not null,
+    givenName tinytext not null,
+    surName tinytext not null,
+    personalID tinytext not null,
+    phoneNumber tinytext not null,
+    eMail tinytext not null
+    )
